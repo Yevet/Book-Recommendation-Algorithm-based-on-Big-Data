@@ -1,0 +1,13 @@
+
+1. wordcount 在hadoop+spark的分布式环境中运行
+
+2. douban 
+    1）豆瓣书籍信息爬虫是在单机hadoop环境下运行的，得到数据集
+    2）短评情感分析是在hadoop+spark的分布式环境下运行的
+    3）协同过滤算法是在单机hadoop下运行的
+    4）热门书籍词云图popular_book.py是在单击hadoop下运行的，txt文件是清洗后的数据集
+    5）不同类别书籍占比饼图booktype_piechart.py是在单机hadoop下运行的
+    6）优秀作者排名柱状图author_rank.py是在单机hadoop下运行的
+    7）热门出版社词云图publish_house.py是在单机hadoop下运行的
+    8）书籍整体分析中scoretotal.py在单机hadoop下运行，生成书籍整体评分频数分布图
+    9）书籍整体分析中year_and_score.py在单机hadoop下运行，生成世界不同国家书籍评分图（为html文件）
